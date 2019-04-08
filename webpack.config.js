@@ -1,5 +1,6 @@
 let path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
    entry: './js/script.js',
    output: {
@@ -26,6 +27,12 @@ module.exports = {
    },
 plugins: [
       new ExtractTextPlugin('css/main.css'),
+      new HtmlWebpackPlugin({
+         template: './index.html',
+      })
+
+
    ]
+   
 
 }
