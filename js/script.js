@@ -8,3 +8,4 @@ $(document).ready(function () {
 		$ul.toggleClass("menu-click");
 	}); // end click event handler
 });
+let $ =require('jquery');
