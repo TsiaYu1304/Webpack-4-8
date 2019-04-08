@@ -9,3 +9,4 @@ $(document).ready(function () {
 	}); // end click event handler
 });
 let $ =require('jquery');
+import "../css/main.css";
