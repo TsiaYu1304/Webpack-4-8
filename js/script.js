@@ -1,3 +1,9 @@
+import "../css/main.css";
+import bird from '../images/bird.jpg';
+import squirrel from '../images/squirrel.jpg';
+$('#image_bird').attr("src", bird);
+$('#image_squirrel').attr("src", squirrel);
+
 $(document).ready(function () {
 	// when a hanburger menu is clicked
 	let $ul = $(".nav__list"),
@@ -9,4 +15,3 @@ $(document).ready(function () {
 	}); // end click event handler
 });
 let $ =require('jquery');
-import "../css/main.css";
