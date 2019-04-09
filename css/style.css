@@ -1,5 +1,5 @@
 /* Custom Fonts */
-@font-face {
+/*@font-face {
 	font-family: 'PTSans';
 	src: 	url('fonts/PT-Sans.eot');
    src: 	url('fonts/PT-Sans.eot?#iefix') format('embedded-opentype'),
@@ -42,7 +42,7 @@
 	font-weight: bold;
 	font-style: italic;
 }
-
+*/
 html {
 	background-color: #608699;
 	line-height: 1.7;
