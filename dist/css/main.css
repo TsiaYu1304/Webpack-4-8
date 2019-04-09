@@ -343,7 +343,7 @@ template {
 
 /* Custom Fonts */
 
-@font-face {
+/*@font-face {
 	font-family: 'PTSans';
 	src: 	url('fonts/PT-Sans.eot');
    src: 	url('fonts/PT-Sans.eot?#iefix') format('embedded-opentype'),
@@ -386,6 +386,7 @@ template {
 	font-weight: bold;
 	font-style: italic;
 }
+*/
 
 html {
 	background-color: #608699;

@@ -1,3 +1,5 @@
+let $ =require('jquery');
+//import $ from 'jquery';
 import "../css/main.css";
 import bird from '../images/bird.jpg';
 import squirrel from '../images/squirrel.jpg';
@@ -14,4 +16,3 @@ $(document).ready(function () {
 		$ul.toggleClass("menu-click");
 	}); // end click event handler
 });
-let $ =require('jquery');
